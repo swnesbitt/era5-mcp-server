@@ -83,6 +83,7 @@ python era5_server.py
 
 To add the server to your assistant permanently:
 - **Gemini CLI:** `gemini tools add era5_server.py`
+- **Claude:** Add a new tool and point it to the server's OpenAPI specification. By default, the server runs on `localhost:8080`, and the specification is available at `http://localhost:8080/openapi.json`.
 - **Other MCP-compatible clients**: Follow their instructions for adding a local tool server.
 
 ---
