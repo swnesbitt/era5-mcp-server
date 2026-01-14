@@ -1,0 +1,4 @@
+fastmcp
+cdsapi
+xarray
+netCDF4

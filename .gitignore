@@ -1,0 +1,11 @@
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Copernicus
+.cdsapirc
+
+# Data files
+*.nc
